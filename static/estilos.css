@@ -1,0 +1,96 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Tarjetas y Contenedores */
+.card, .status-grid > div {
+    background: #ffffff;
+    border: 1px solid #000000; /* Borde sólido simple */
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/* Formularios e Inputs */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    box-sizing: border-box; /* Para que no se salga del margen */
+}
+
+/* Botones (Azul estático, sin cambios) */
+.btn-primary, .btn-add, .btn-save {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.link-secondary {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Estados Online / Offline */
+.badge {
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.online {
+    background-color: #28a745; /* Verde */
+}
+
+.offline {
+    background-color: #dc3545; /* Rojo */
+}
+
+/* Estructura del Panel */
+.status-grid {
+    display: block; /* Lista simple hacia abajo */
+}
+
+.device-online {
+    border-left: 10px solid #28a745; /* Marca verde lateral */
+}
+
+.device-offline {
+    border-left: 10px solid #dc3545; /* Marca roja lateral */
+}
+
+.services-list {
+    margin-top: 10px;
+    padding: 5px;
+    background: #eee;
+    font-size: 0.9em;
+}

@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoreo</title>
+    <link rel="stylesheet" href="/static/estilos.css">
+</head>
+<body>
+    <main class="app-container">
+        <header class="panel-header">
+            <div class="header-content">
+                <h1>Panel de Monitoreo</h1>
+            </div>
+            <nav>
+                <a href="/" class="btn-add">Nuevo Registro</a>
+            </nav>
+        </header>
+
+        <section id="monitor-section">
+            <div id="status-container" class="status-grid">
+                <!-- El contenido se carga dinámicamente vía JS -->
+                <div class="loader">Sincronizando con los equipos...</div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
